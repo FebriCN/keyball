@@ -32,18 +32,20 @@ jobs:
         keyboard: [ keyball39, keyball44, keyball61, keyball46, one47 ]
         keymap: [ test, default, via ]
         include:
-          - keyboard: keyball46
-            keymap:   test_Left
-          - keyboard: keyball46
-            keymap:   test_Both
-          - keyboard: keyball46
-            keymap:   via_Left
-          - keyboard: keyball46
-            keymap:   via_Both
+          - keyboard: keyball44
+            keymap:   easy
+          #- keyboard: keyball46
+          #  keymap:   test_Left
+          #- keyboard: keyball46
+          #  keymap:   test_Both
+          #- keyboard: keyball46
+          #  keymap:   via_Left
+          #- keyboard: keyball46
+          #  keymap:   via_Both
 
     uses: ./.github/workflows/build-firmware.yml
     with:
-      qmk_version: '0.22.14'
+      qmk_version: '0.26.8'
       keyboard:    ${{ matrix.keyboard }}
       keymap:      ${{ matrix.keymap }}
 
