@@ -20,16 +20,16 @@ I made my own keymap, [keyball44:easy](./qmk_firmware/keyboards/keyball/keyball4
 - Layer 1 **(has number-row keys and navigation keys, and <kbd>-/_</kbd>, <kbd>=/+</kbd>, <kbd>'/"</kbd>)**  
   To activate:
   - Hold <kbd>Space</kbd>
-  - Tap the key on the right of the track ball (<kbd>TG(1)</kbd>) will toggle Layer 1
+  - Tap the key on the right of the track ball (<kbd>TG(1)</kbd>) will `Toggle Layer 1` (to use number-row keys)
 - Layer 2 **(has Fn-row keys, mouse left/right clicks, audio adjust, screen brightness adjust)**  
   To activate:
-  - Hold <kbd>Esc</kbd> (when mouse clicks is needed but AutoMouseLayer not activated)
-  - Hold <kbd>Shift</kbd> + <kbd>TG(1)</kbd>
-  - A movement beyond 64 will activate layer 2 automatically
+  - Hold <kbd>Esc</kbd> (when mouse clicks is needed but AutoMouseLayer not activated, or to use right-side keys)
+  - Hold <kbd>Shift</kbd> + <kbd>TG(1)</kbd> (to use left-side keys)
+  - A movement beyond 64 will `Activate Layer 2` automatically.
 - Layer 3 **(has no keys, but for mouse scrolling, with a single hand)**  
   To activate:
   - Hold <kbd>Enter</kbd>
-  - Tap <kbd>Shift</kbd> + <kbd>Enter</kbd> will toggle Layer 3
+  - Tap <kbd>Shift</kbd> + <kbd>Enter</kbd> will `Toggle Layer 3`
 
 ## Usage
 - Space Cadet  
