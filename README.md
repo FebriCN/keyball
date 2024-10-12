@@ -17,14 +17,17 @@ I made my own keymap, [keyball44:easy](./qmk_firmware/keyboards/keyball/keyball4
 ## Layers
 - Layer 0
   - This is the default layer
-- Layer 1 **(has number-row keys and navigation keys, and <kbd>-/_</kbd>, <kbd>=/+</kbd>, <kbd>'/"</kbd>)**
+- Layer 1 **(has number-row keys and navigation keys, and <kbd>-/_</kbd>, <kbd>=/+</kbd>, <kbd>'/"</kbd>)**  
+  To activate:
   - Hold <kbd>Space</kbd>
   - Tap the key on the right of the track ball (<kbd>TG(1)</kbd>) will toggle Layer 1
-- Layer 2 **(has Fn-row keys, mouse left/right keys, audio adjust, screen brightness adjust)**
-  - Hold <kbd>Esc</kbd>
+- Layer 2 **(has Fn-row keys, mouse left/right clicks, audio adjust, screen brightness adjust)**  
+  To activate:
+  - Hold <kbd>Esc</kbd> (when mouse clicks is needed but AutoMouseLayer not activated)
   - Hold <kbd>Shift</kbd> + <kbd>TG(1)</kbd>
   - A movement beyond 64 will activate layer 2 automatically
-- Layer 3 **(has no keys)**
+- Layer 3 **(has no keys, but for mouse scrolling, with a single hand)**  
+  To activate:
   - Hold <kbd>Enter</kbd>
   - Tap <kbd>Shift</kbd> + <kbd>Enter</kbd> will toggle Layer 3
 
@@ -49,5 +52,5 @@ I made my own keymap, [keyball44:easy](./qmk_firmware/keyboards/keyball/keyball4
   - Single Tap will Trigger <kbd>CMD</kbd> + <kbd>1 2 3 4 5 6 7 8 9 0</kbd>.
   - Double Tap will Trigger the original commands.
   - Only 200ms of delays introduced while processing the above Shortcut keys.
-  - No deleys while you normally typing, or other Shortcut keys triggered.
+  - No deleys while normally typing, or other Shortcut keys triggered.
 
